@@ -8,3 +8,4 @@ with fh as infile, open('beemovienew.txt', 'w') as outfile:
     for line in infile:
         if not line.strip(): continue  # skip the empty line
         outfile.write(line) 
+

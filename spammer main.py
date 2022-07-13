@@ -20,3 +20,5 @@ time.sleep(10)
 for word in fh: 
     pyautogui.typewrite(word)
     pyautogui.press("enter")
+
+    
